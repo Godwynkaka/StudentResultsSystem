@@ -1,0 +1,131 @@
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.vsp
+*.vspx
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+packages/
+*.nuget.cache
+*.nuget.*.props
+*.nuget.*.targets
+
+# Test results
+TestResults/
+*.trx
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Publish outputs
+/publish/
+*.pubxml.user
+
+# Entity Framework
+*.efcore.cache
+
+# Compiled output
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+
+# Node modules (if you use frontend assets)
+node_modules/
+wwwroot/lib/
+
+# Application configuration
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+*.local.json
+*.user.json
+
+# Certificates
+*.pfx
+*.p12
+*.cer
+
+# Coverage reports
+*.coverage
+*.coveragexml
+*.htmlcov
+*.cobertura.xml
+*.lcov.info
+*.gcda
+*.gcno
+*.gcov
+
+# Build output directories
+**/bin/
+**/obj/
+**/publish/
+
+# Diagnostics
+*.pidb
+*.pid
+
+# Local tooling
+/.tools/
+/tools/
+
+# Dotnet local tools manifest
+.dotnet/
+*.localdb
+*.localdb-journal
+
+# Visual Studio Code coverage
+*.coverage
+*.coverlet
+
+# Generated documentation
+docs/_build/
+docs/_site/
+
+# Profiling files
+*.cpuprofile
+*.diagsession
+*.perfview
